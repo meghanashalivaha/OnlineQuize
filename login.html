@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#667eea,#43cea2);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.card{
+background:white;
+padding:30px;
+width:350px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+text-align:center;
+}
+input{
+width:90%;
+padding:10px;
+margin:10px;
+}
+button{
+background:#43cea2;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<h2>Login</h2>
+<p style="color:red;">{{message}}</p>
+<form method="POST">
+<input name="username" required placeholder="Username">
+<input name="password" type="password" required placeholder="Password">
+<button type="submit">Login</button>
+</form>
+</div>
+</body>
+</html>

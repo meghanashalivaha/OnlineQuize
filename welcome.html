@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial;
+        background: linear-gradient(135deg, #667eea, #43cea2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .card {
+        background: white;
+        padding: 40px;
+        width: 400px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        text-align: center;
+      }
+      button {
+        background: #43cea2;
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Welcome {{username}} 👋</h2>
+      <p>Welcome to Online Quiz System</p>
+      <a href="/start_quiz">
+        <button>Start Quiz</button>
+      </a>
+      <br /><br />
+      <a href="/logout">Logout</a>
+    </div>
+  </body>
+</html>

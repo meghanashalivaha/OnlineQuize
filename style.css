@@ -1,0 +1,56 @@
+body{
+background: linear-gradient(135deg,#4e73df,#1cc88a);
+font-family: Arial, sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:15px;
+width:420px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+button{
+background:#4e73df;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+width:100%;
+}
+
+button:hover{
+background:#2e59d9;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:8px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.score-high{
+color:green;
+font-size:22px;
+}
+
+.score-medium{
+color:orange;
+font-size:22px;
+}
+
+.score-low{
+color:red;
+font-size:22px;
+}
