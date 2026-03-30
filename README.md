@@ -1,7 +1,10 @@
 # Online Quiz System
 
 This is a web-based quiz application built using Flask.
-** URI**:http://127.0.0.1:5000/
+
+## Project info
+
+**URL**: http://127.0.0.1:5000/
 
 ## Features
 - User Registration and Login
